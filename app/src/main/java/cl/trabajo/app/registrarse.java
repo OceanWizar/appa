@@ -13,6 +13,11 @@ public class registrarse extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrarse);
     }
+    public void iniciar_sesion(View view){
+        Intent intent2 = new Intent(registrarse.this, MainActivity.class);
+        startActivity(intent2);
+
+    }
 
 
 }

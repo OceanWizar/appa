@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         myRef.setValue("Ingreso al Mapa");
     }
 
+
     @Override
 
     public void onMapReady(@NonNull GoogleMap googleMap) {

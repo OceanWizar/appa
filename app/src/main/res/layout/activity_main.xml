@@ -15,7 +15,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:name="com.google.android.gms.maps.SupportMapFragment">
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:layout="@layout/activity_mapa">
 
     </androidx.fragment.app.FragmentContainerView>
 
@@ -53,10 +54,11 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:backgroundTint="#FFFFFF"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/contrase_a"
+        android:text="@string/contrase_aaaa"
         android:textColor="#FFFFFF"
         android:textColorHint="#FEFCFC"
         android:textSize="24sp"
@@ -65,11 +67,10 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.697"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.697" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editTextTextPersonName22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
@@ -161,10 +162,11 @@
 
     <Button
         android:id="@+id/Mapaa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="108dp"
+        android:layout_height="48dp"
         android:background="#3F1B5F"
         android:backgroundTint="#3F1B5F"
+        android:foregroundTint="#3F1B5F"
         android:onClick="mapa"
         android:text="@string/mapa"
         app:layout_constraintBottom_toBottomOf="parent"

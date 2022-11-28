@@ -15,14 +15,11 @@ import cl.trabajo.app.databinding.ActivityMapaBinding;
 
 public class Mapa extends FragmentActivity implements OnMapReadyCallback {
 
-    private GoogleMap mMap;
-    private ActivityMapaBinding binding;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityMapaBinding.inflate(getLayoutInflater());
+        cl.trabajo.app.databinding.ActivityMapaBinding binding = ActivityMapaBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -44,9 +41,16 @@ public class Mapa extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
 
 
-        mMap = googleMap;
-        LatLng chillan = new LatLng(-36.60787975863577, -72.10238905258322);
-        mMap.addMarker(new MarkerOptions().position(chillan).title("Chillan"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(chillan));
+        LatLng plaza_de_armas = new LatLng(-36.606776355238225, -72.10329349835753);
+        LatLng teatro_municipal = new LatLng(-36.60686546958592, -72.10429402096231);
+        LatLng intituto_de_musica = new LatLng(-36.60571782545974, -36.60571782545974);
+
+        googleMap.addMarker(new MarkerOptions().position(plaza_de_armas).title("plaza_de_armas"));
+        googleMap.addMarker(new MarkerOptions().position(teatro_municipal).title("teatro_municipal"));
+        googleMap.addMarker(new MarkerOptions().position(intituto_de_musica).title("intituto_de_musica "));
+
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(plaza_de_armas, 15));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(teatro_municipal, 15));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(intituto_de_musica, 15));
     }
 }

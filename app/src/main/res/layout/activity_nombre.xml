@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1919"
+    tools:context=".nombre">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="38dp"
+        android:layout_height="53dp"
+        android:contentDescription="@string/todoa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/guitarra" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/mascaras__1_" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="369dp"
+        android:layout_height="110dp"
+        android:text="@string/aqu_nos_podremos_encontrar_con_sitios_en_los_cuales_podemos_encontrar_colegios_de_musica_como_museos_o_teatros_y_a_la_vez_artistas_callejeros_donde_podemos_ver_mas_de_alguna_ocasion_su_profesion_de_la_expresion_del_arte_musical_y_no_solo_de_la_musica_si_no_del_arte_mismo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/escuela_de_cultura_y_difusi_n_art_stica_claudio_arrau_le_n"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="356dp"
+        android:layout_height="137dp"
+        android:text="@string/la_escuela_de_cultura_y_difusi_n_art_stica_claudio_arrau_le_n_existe_desde_el_1_de_julio_de_1942_y_fue_creada_gracias_al_apoyo_de_las_autoridades_de_entonces_a_fin_de_satisfacer_las_necesidades_que_detectaban_de_incorporar_las_disciplinas_art_sticas_en_la_ense_anza_de_los_estudiantes_en_primera_instancia_cumplir_a_una_funci_n_t_cnica_y_se_le_conoci_como_escuela_de_arte_popular_que_ense_aba_distintos_oficios"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instituto_superior_de_m_sica_de_chile"
+        android:textColor="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="340dp"
+        android:layout_height="68dp"
+        android:text="@string/es_una_escuela_que_tiene_como_fin_darle_a_sus_estudiantes_un_gran_aprendisaje_sobre_lo_que_es_la_cultura_musical_y_que_puedan_sacar_el_mejor_potencial_de_cada_uno"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/museo_claudio_arrau"
+        android:textColor="#FCFCFC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="332dp"
+        android:layout_height="36dp"
+        android:text="@string/museo_sobre_la_vida_y_carrera_del_famoso_pianista_claudio_arrau_le_n_adem_s_de_exhibir_su_piano"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F1B5F"
+        android:onClick="siguiente"
+        android:text="@string/siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
+</androidx.constraintlayout.widget.ConstraintLayout>

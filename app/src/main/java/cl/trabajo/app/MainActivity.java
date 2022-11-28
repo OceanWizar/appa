@@ -29,19 +29,18 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
     }
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference myRef = database.getReference("message");
     public void registrarse(View view) {
         Intent intent = new Intent(MainActivity.this, registrarse.class);
         startActivity(intent);
-
-    }
-    FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference myRef = database.getReference("message");
-    public void mapa(View view) {
-        Intent intent1 = new Intent(MainActivity.this, Mapa.class);
-        startActivity(intent1);
-        myRef.setValue("Ingreso al Mapa");
+        myRef.setValue("Ingreso al boton para registrarse");
     }
 
+    public void iniciar_sesion(View view) {
+        Intent intent3 = new Intent(MainActivity.this, lugares.class);
+        startActivity(intent3);
+    }
 
     @Override
 

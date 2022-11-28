@@ -54,4 +54,26 @@
     <string name="cmusichh">CMusic</string>
     <string name="lugares_donde_podra_encontrar_lo_que_busca">Lugares donde podra encontrar lo que busca</string>
     <string name="nombre_de_los_lugares">Nombre de los lugares</string>
+    <string name="aqu_nos_encontraremos_con_el_teatro_municipal_donde_en_mas_de_una_ocasion_nos_podremos_encontrar_con_bastantes_artistas_musicales_y_no_solo_artistas_musicales_si_no_donde_podremos_ver_el_arte_en_bastantes_formas_de_expresion">Aquí nos encontraremos con el teatro municipal donde en mas de una ocasion nos podremos encontrar con bastantes artistas musicales y no solo artistas musicales si no donde podremos ver el arte en bastantes formas de expresion</string>
+    <string name="teatro_municipal">teatro municipal</string>
+    <string name="plaza_de_armas">Plaza de armas</string>
+    <string name="aparte_de_ser_una_simple_plaza_aqui_nos_podremos_encontrar_artistas_callejeros_donde_nos_mostraran_el_arte_visual_las_cosas_que_han_podido_crear_de_dinstintas_formas">Aparte de ser una simple plaza aqui nos podremos encontrar artistas callejeros donde nos mostraran el arte visual, las cosas que han podido crear de dinstintas formas</string>
+    <string name="pasarela_chillan">Pasarela chillan</string>
+    <string name="al_ser_esta_una_zona_en_el_cual_suele_pasar_bastante_genta_al_ver_tiendas_lugares_de_comida_nosotros_nos_podremos_encontrar_a_gente_mostrandonos_su_arte_musical_de_bastante_cosas_diariamente_tambien_podremos_ver_el_arte_de_las_manualidades_de_distintas_personas_dandonos_a_conocer_lo_que_son_capaz_de_crear_con_sus_manos_de_distintas_formas">Al ser esta una zona en el cual suele pasar bastante genta al ver tiendas, lugares de comida, nosotros nos podremos encontrar a gente mostrandonos su arte musical de bastante cosas diariamente, tambien podremos ver el arte de las manualidades de distintas personas dandonos a conocer lo que son capaz de crear con sus manos de distintas formas</string>
+    <string name="atrasf">Atras</string>
+    <string name="iniciof">Inicio</string>
+    <string name="contra">contra</string>
+    <string name="confirmar_contra">confirmar_contra</string>
+    <string name="contrase_aaa">Contraseña</string>
+    <string name="gmaila">Gmail</string>
+    <string name="nombre_del_usuarioaa">Nombre del usuario</string>
+    <string name="usuarioaaa">Usuario</string>
+    <string name="gmailaa">Gmail</string>
+    <string name="contrase_aaaaaa">Contraseña</string>
+    <string name="usuarioooo">usuario</string>
+    <string name="gmaill">gmail</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="edit_done">Edit Done</string>
+    <string name="edite_done">Edite Done</string>
+    <string name="edit_donee">Edit done</string>
 </resources>

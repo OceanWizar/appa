@@ -8,48 +8,22 @@
     tools:context=".registrarse">
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="275dp"
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="273dp"
         android:layout_height="48dp"
-        android:autofillHints=""
         android:backgroundTint="#FFFFFF"
         android:ems="10"
-        android:hint="@string/con_contrase_a"
-        android:inputType="textPersonName"
-        android:textAllCaps="false"
-        android:textColor="#F7F7F7"
-        android:textColorHint="#FBFBFB"
-        android:textDirection="firstStrong"
-        android:textIsSelectable="false"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.308"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.813" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="275dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:backgroundTint="#FFFFFF"
-        android:ems="10"
-        android:hint="@string/contrase_aa"
-        android:inputType="textPersonName"
-        android:textAllCaps="false"
-        android:textColor="#F7F7F7"
+        android:hint="@string/confirmar_contra"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textDirection="firstStrong"
-        android:textIsSelectable="false"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintHorizontal_bias="0.304"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.686" />
+        app:layout_constraintVertical_bias="0.828"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
@@ -241,5 +215,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.376" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="273dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/contra"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.695"
+        android:autofillHints="" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

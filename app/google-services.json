@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "994722245295",
-    "firebase_url": "https://cmusicaaa-108d5-default-rtdb.firebaseio.com",
-    "project_id": "cmusicaaa-108d5",
-    "storage_bucket": "cmusicaaa-108d5.appspot.com"
+    "project_number": "555974518056",
+    "firebase_url": "https://cmusic-fdb61-default-rtdb.firebaseio.com",
+    "project_id": "cmusic-fdb61",
+    "storage_bucket": "cmusic-fdb61.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:994722245295:android:480771c9c08cab1d68425a",
+        "mobilesdk_app_id": "1:555974518056:android:d6e98447aeb1ab6feb9c1d",
         "android_client_info": {
           "package_name": "cl.trabajo.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "994722245295-0ak17etc5lct3aqptf6bl3loi0cafmg8.apps.googleusercontent.com",
+          "client_id": "555974518056-3aae6otkbg6l2cvv5ef7imhfnofchcoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.trabajo.app",
+            "certificate_hash": "98419fff163fec437a49e59b5f68ecc7c62f90e9"
+          }
+        },
+        {
+          "client_id": "555974518056-oj43ll4fiq5lrdpaf7pcitnos69hsg68.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDbn-lyAoarlNsXp9iunzoSzskbO-tuadE"
+          "current_key": "AIzaSyAXqEz-T-0ee0akrquklEJoubz6kPsSVQE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "994722245295-0ak17etc5lct3aqptf6bl3loi0cafmg8.apps.googleusercontent.com",
+              "client_id": "555974518056-oj43ll4fiq5lrdpaf7pcitnos69hsg68.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

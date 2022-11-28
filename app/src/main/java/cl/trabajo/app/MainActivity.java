@@ -5,7 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -19,6 +23,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback{
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,12 +34,13 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
     }
-    FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference myRef = database.getReference("message");
+
+
+
     public void registrarse(View view) {
-        Intent intent = new Intent(MainActivity.this, registrarse.class);
+        Intent intent = new Intent(MainActivity.this, menu.class);
         startActivity(intent);
-        myRef.setValue("Ingreso al boton para registrarse");
+
     }
 
     public void iniciar_sesion(View view) {
